@@ -1,5 +1,5 @@
-import card from './src/components/Entry.js';
+import card from './src/components/Elements.js';
 
-let card = new card({title: "It works!"});
+let card = new card({title: "this is a card"});
 
-console.log(card.render() );
+console.log(entry.render() );
