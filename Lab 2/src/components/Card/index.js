@@ -1,5 +1,11 @@
-import card from './src/components/Elements.js';
+import "./index.css";
+class Card {
+constructor(props){
+  this.props = props;
+}
+render() {
+  return `<div class="Card">${this.props.content}</div>`;
+}
 
-let card = new card({title: "this is a card"});
-
-console.log(entry.render() );
+}
+export default Card;
