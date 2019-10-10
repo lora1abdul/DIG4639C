@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Entity from "./components/Entity/index.js";
+import Card from "./components/Card/index.js"
 class App extends React.Component {
   render(){
   return (
