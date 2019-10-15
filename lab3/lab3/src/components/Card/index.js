@@ -1,10 +1,9 @@
 import React from "react";
-import"src/components/Card/index.css";
+import "./index.css";
 
 class Card extends React.Component {
   render(){
-    return(<div className="card">
-    <Card content="This is a card!"></Card> </div>);
+    return(<div className="card">{this.props.content}</div>);
 
   }
 }
