@@ -14,8 +14,7 @@ class Add extends React.Component {
   componentDidMount() {
 
     fetch("https://apiexample.website/contacts/add", {
-      "method": "POST",
-      "headers": {
+     {
         "api": "abdulhak",
         },
 

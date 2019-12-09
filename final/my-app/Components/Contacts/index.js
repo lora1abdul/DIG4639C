@@ -11,18 +11,9 @@ class Contacts extends React.Component {
 
     componentDidMount() {
       fetch("https://apiexample.website/contacts", {
-        "method": "GET",
-        "headers": {
-          "api": "abdulhak"
-        }
-        })
-        .then((response) => {
-            return response.json();
-        })
-        .then((data) => {
-            this.setState({ contacts: data}
-            )
-        })
 
-      }
+          {"api": "abdulhak"
+    }
+
+    
 export default Contacts;
