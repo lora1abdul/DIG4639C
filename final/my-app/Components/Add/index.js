@@ -19,10 +19,7 @@ class Add extends React.Component {
         "api": "abdulhak",
         },
 
-      "body": JSON.stringify({
-        "name": this.state.added.name,
-        "number": this.state.added.number
-      })
+
 
 
 
