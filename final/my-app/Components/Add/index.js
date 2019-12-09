@@ -4,12 +4,20 @@ class Add extends React.Component {
 
 
 
-  getValue = (event) => {
-
-
-    this.setState({"name": name, "number": number});
-
+  constructor(props) {
+    super(props);
+    this.state = {
+      fname: '',
+      lname: '',
+      email: '',
+      message: '',
+    }
   }
+
+  handleFormSubmit( event ) {
+  event.preventDefault();
+  console.log(this.state);
+}
 
   componentDidMount() {
 

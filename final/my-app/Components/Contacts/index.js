@@ -3,17 +3,22 @@ import "./index.css";
 
 class Contacts extends React.Component {
 
-  constructor(props) {
-        super(props);
+  <p>Contact Me</p>
+  <div>
+  <form action="/action_page.php">
+  <label>First Name</label>
+  <inputtype="text"id="fname"name="firstname"placeholder="Your name.."/>
+  <label>Last Name</label>
+  <input type="text"id="lname" name="lastname" placeholder="Your last name.."/>
 
-        this.state = { contacts: {}};
-    }
 
-    componentDidMount() {
-      fetch("https://apiexample.website/contacts", {
+  <label>Email</label>
+  <inputtype="email"id="email"name="email"placeholder="Your email"/>
 
-          {"api": "abdulhak"
-    }
 
-    
+  <label>Subject</label>
+  <textarea id="subject"name="subject"placeholder="Write something.."></textarea>
+  <input type="submit"value="Submit"/>
+  </form>
+  </div>
 export default Contacts;
