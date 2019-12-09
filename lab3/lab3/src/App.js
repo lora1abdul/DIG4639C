@@ -8,6 +8,8 @@ class App extends React.Component {
   return (
     <div className="App">
       <CardList content="This is content!"/>
+      <h3>{this.props.title}</h3>
+       <p>{this.props.article}</p>
     </div>
 
   );

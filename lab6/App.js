@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     Friends is my favorite TV show! I know this show by heart, and I literally find myself
     constantly mouthing the words as they say it! </Text>
         </View>
+    
     );
   }
 }
